@@ -1,6 +1,3 @@
-# ==========================================
-# LISTA DE EXERCÍCIOS - ESTRUTURA CONDICIONAL
-# ==========================================
 
 # 1. Número positivo ou negativo
 num1 = int(input("1. Digite um número: "))
