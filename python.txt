@@ -1,31 +1,31 @@
 
-# 1. Número positivo ou negativo
+# 1.
 num1 = int(input("1. Digite um número: "))
 if num1 >= 0:
     print("Positivo")
 else:
     print("Negativo")
 
-# 2. Dobro do valor
+# 2. 
 num2 = int(input("\n2. Digite um número para dobrar: "))
 print(f"O dobro é: {num2 * 2}")
 
-# 3. Valor e tipo da variável
+# 3. 
 valor3 = input("\n3. Digite algo para ver o tipo: ")
 print(f"Valor: {valor3}, Tipo: {type(valor3)}")
 
-# 4. Par ou ímpar
+# 4. 
 num4 = int(input("\n4. Digite um número: "))
 if num4 % 2 == 0:
     print("Par")
 else:
     print("Ímpar")
 
-# 5. Triplo
+# 5. 
 num5 = int(input("\n5. Digite um número para o triplo: "))
 print(f"O triplo é: {num5 * 3}")
 
-# 6. Qual é o maior de dois números
+# 6. 
 n1_6 = float(input("\n6. Digite o primeiro número: "))
 n2_6 = float(input("Digite o segundo número: "))
 if n1_6 > n2_6:
@@ -33,32 +33,32 @@ if n1_6 > n2_6:
 else:
     print(f"O maior é {n2_6}")
 
-# 7. Maior que 10
+# 7. 
 valor7 = float(input("\n7. Digite um valor: "))
 if valor7 > 10:
     print("Maior que 10")
 else:
     print("Menor ou igual a 10")
 
-# 8. Raiz quadrada ou número inválido
+# 8. 
 num8 = float(input("\n8. Digite um número para a raiz: "))
 if num8 >= 0:
     print(f"A raiz aproximada é: {num8 ** 0.5}")
 else:
     print("Número inválido")
 
-# 9. Metade do valor
+# 9. 
 valor9 = float(input("\n9. Digite um valor para a metade: "))
 print(f"A metade é: {valor9 / 2}")
 
-# 10. Dentro do intervalo [0, 10]
+# 10. 
 num10 = float(input("\n10. Digite um número: "))
 if 0 <= num10 <= 10:
     print("Dentro do intervalo")
 else:
     print("Fora do intervalo")
 
-# 11. Par positivo, par negativo ou ímpar
+# 11. 
 num11 = int(input("\n11. Digite um número: "))
 if num11 % 2 == 0:
     if num11 >= 0:
@@ -68,7 +68,7 @@ if num11 % 2 == 0:
 else:
     print("Ímpar")
 
-# 12. Soma e comparação de dois números
+# 12. 
 n1_12 = float(input("\n12. Número 1: "))
 n2_12 = float(input("Número 2: "))
 print(f"Soma: {n1_12 + n2_12}")
@@ -79,35 +79,35 @@ elif n2_12 > n1_12:
 else:
     print("São iguais")
 
-# 13. Maior que 100
+# 13. 
 num13 = float(input("\n13. Digite um número: "))
 if num13 > 100:
     print(f"Metade: {num13 / 2}")
 else:
     print(f"Dobro: {num13 * 2}")
 
-# 14. Múltiplo de 3
+# 14. 
 num14 = int(input("\n14. Digite um valor: "))
 if num14 % 3 == 0:
     print("Múltiplo de 3")
 else:
     print("Não é múltiplo")
 
-# 15. Entre 10 e 20
+# 15. 
 num15 = float(input("\n15. Digite um número: "))
 if 10 <= num15 <= 20:
     print("Dentro")
 else:
     print("Fora")
 
-# 16. Tipo e quadrado
+# 16. 
 entrada16 = input("\n16. Digite algo: ")
 print(f"Tipo: {type(entrada16)}")
 if entrada16.replace('.', '', 1).isdigit():
     num16 = float(entrada16)
     print(f"Quadrado: {num16 ** 2}")
 
-# 17. Faixa etária
+# 17. 
 idade = int(input("\n17. Digite sua idade: "))
 if idade < 18:
     print("Menor de idade")
@@ -116,7 +116,7 @@ elif 18 <= idade <= 59:
 else:
     print("Idoso")
 
-# 18. Classificação completa
+# 18. 
 num18 = int(input("\n18. Digite um número: "))
 if num18 == 0:
     print("Neutro")
@@ -125,7 +125,7 @@ else:
     p_n = "positivo" if num18 > 0 else "negativo"
     print(f"{p_i} {p_n}")
 
-# 19. Iguais ou Diferentes
+# 19. 
 n1_19 = float(input("\n19. Valor 1: "))
 n2_19 = float(input("Valor 2: "))
 if n1_19 == n2_19:
@@ -133,7 +133,7 @@ if n1_19 == n2_19:
 else:
     print(f"Diferentes. Diferença: {abs(n1_19 - n2_19)}")
 
-# 20. Fora do intervalo [0, 100]
+# 20. 
 num20 = float(input("\n20. Digite um valor: "))
 if not (0 <= num20 <= 100):
     print(f"Valor fora do intervalo: {num20}")
